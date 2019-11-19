@@ -1,18 +1,15 @@
 defmodule ElixirKata do
-  @moduledoc """
-  Documentation for ElixirKata.
-  """
+  def run(str) do
+    str
+    |> to_array
+    |> inverse
+  end
 
-  @doc """
-  Hello world.
+  def to_array(str) do
+    for x <- str, do: IO.puts(x)
+  end
 
-  ## Examples
-
-      iex> ElixirKata.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def inverse(array) do
+    array
   end
 end
