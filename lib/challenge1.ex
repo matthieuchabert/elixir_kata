@@ -1,4 +1,4 @@
-defmodule ElixirKata do
+defmodule Challenge1 do
   # -------------------------------- FIRST TRY --------------------------------
   def run(str) do
     reverse1(str)
